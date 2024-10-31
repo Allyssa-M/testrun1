@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Transparent Header</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+  <script>
+    const logoutTab = document.querySelector('a[data-tab="logout"]');
+    if (logoutTab) {
+        logoutTab.addEventListener('click', function(e) {
+            e.preventDefault();
+            if (confirm('Are you sure you want to log out?')) {
+                window.location.href = 'User-Login.html';
+            }
+        });
+    }
+});
+
+  </script>
+    <header>
+        <nav>
+    <a href="#homepage">Home</a>
+    <a href="#government-ids">Government IDs</a>
+    <a href="#personal-ids">Personal IDs</a>
+      <div class="dropdown">
+        <a href="#profile">
+          <img src="download.jfif" alt="Profile Picture" class="profile-pic">
+          Profile
+        </a>
+          <div class="dropdown-content">
+            <a href="#dashboard"><i class="fa-solid fa-chart-line"></i>Dashboard</a>
+            <a href="#User-Profile"><i class="fa-solid fa-gear"></i>Account Settings</a>
+            <a href="#logout"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+          </div>
+      </div>
+  </nav>
+    </header>
+
+    
+   
+ 
+
+    <p><h1 style="color:black; margin-top: 100px; text-align: center;"><u><b>Dashboard</b></u></h1></p>
+
+        <div class="grid-container">
+          <div class="grid-item">
+            <button>👤Profile</button>
+          </div>
+          <div class="grid-item">
+            <button>⚙️Settings</button>
+          </div>
+          <div class="grid-item">
+            <button>📇Government ID</button>
+          </div>
+          <div class="grid-item">
+            <button>🪪Personal ID</button>
+          </div>
+          <div class="grid-item">
+            <button>⛆QR Generator</button>
+          </div>
+          <div class="grid-item">
+            <button>👣Audit Trail</button>
+          </div>
+          <div class="grid-item">
+            <button>🚪Log Out</button>
+          </div>
+<!-- My Code -->
+			<div class = "grid-item">
+			<button>&#128706 Admin</button>
+			</div>
+</div>
+<!-- my code-->
+<div class = "admin_page">
+    <h2> WELCOME TO THE ADMIN PAGE </h2>
+</div>
+<br>
+  <div class = "headerAP">
+    <h3> USERS: </h3>
+  </div>
+
+<!-- users -->
+
+<div class = "profile-panel">
+  <div class = "profile-image">
+    <img src = "IMG1.jfif">
+  </div>
+
+  <div class = "profile-info"> 
+    <div class = "profile-name"> John Doe </div>
+    <div class = "profile-level"> Access Level : Admin</div>
+</div>
+<div class ="button-container">
+  <button class = "button add-button"> Add User </button>
+  <button class = "button remove-button"> Remove User </button>
+  <button class = "button edit-button"> Permissions </button>
+  <button class = "button edit-button"> <span> &#128736 </span></button>
+</div>
+
+</div>
+
+
+<div class = "profile-panel">
+  <div class = "profile-image">
+    <img src = "IMG1.jfif">
+  </div>
+
+  <div class = "profile-info"> 
+    <div class = "profile-name"> John Doe </div>
+    <div class = "profile-level"> Access Level : Admin</div>
+</div>
+<div class ="button-container">
+  <button class = "button add-button"> Add User </button>
+  <button class = "button remove-button"> Remove User </button>
+  <button class = "button edit-button"> Permissions </button>
+  <button class = "button edit-button"> <span> &#128736 </span></button>
+</div>
+
+</div>
+<br>
+  <div class = "headerAP">
+    <h3> CONTROL MANAGEMENT </h3>
+  </div>
+
+<!-- Control management code --> 
+<div class = "id-management">
+  <h2> ID Management </h2>
+  <div class = "id-list">
+    <h3>  IDs </h3> <button class = " button edit-button"> Add New ID </button>
+
+    <ul> 
+
+<li>
+  <span> Name: Jane Doe <br> ID Type : Passport</span>
+   <button class = "button edit-button"> Edit </button>
+   <button class = "button remove-button"> Delete </button>
+</li>
+
+<li>
+  <span> Name: John Doe <br> ID Type : Driver's License</span>
+   <button class = "button edit-button"> Edit </button>
+   <button class = "button remove-button"> Delete </button>
+</li>
+<!-- Add even More IDS-->
+</ul>
+
+</div>
+
+
+<div class = "privacy-settings">
+  <h3> Privacy Settings </h3>
+    <label>
+      <input type = "checkbox"> Make All IDs Private 
+    </label>
+  </div>
+</div>
+
+<br>
+  <div class = "headerAP">
+    <h3> SETTINGS AND CONFIGURATION </h3>
+  </div>
+<br> 
+<div class = "headerAP">
+    <h3> ANALYTICS AND REPORTING </h3>
+    <h4> Reports : </h4>
+    <div class="tracking-icon"> WEBSITE USAGE </div>
+    <script async src = ""></script>
+
+</div>
+<br>
+
+<!-- END OF MY CODE -->
+    <footer>
+        <div class="footer-container">
+          <div class="footer-content-wrapper">
+            <div class="footer-content">
+              <h3 class="footer-heading"><b>Contact Us</b></h3>
+              <p>
+                <i class="fas fa-envelope"></i
+                ><a href="mailto:advenSure@gmail.com">advenSure@gmail.com</a>
+              </p>
+              <p>
+                <i class="fas fa-phone"></i
+                ><a href="+63 (2) 123-4567">+63 (2) 123-4567</a>
+              </p>
+              <p>
+                <i class="fas fa-map-marker-alt"></i
+                ><a href="#">567 Street, Manila, Philippines</a>
+              </p>
+            </div>
+            <div class="footer-content">
+              <h3 class="footer-heading"><b>Quick Links</b></h3>
+              <ul class="footer-list">
+                <li><a href="../../about-us/about.html">About Us</a></li>
+                <li>
+                  <a href="../../travels-and-tours/tour.html">Travel & Tours</a>
+                </li>
+                <li>
+                  <a href="../../popular-destinations/popular-destination.html"
+                    >Popular Destinations</a
+                  >
+                </li>
+                <li>
+                  <a href="../../attractions/attractions.html">
+                    Best Attractions</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer-content">
+              <h3 class="footer-heading"><b>Follow Us</b></h3>
+              <ul class="social-icons">
+                <li>
+                  <a
+                    href="https://web.facebook.com/profile.php?id=61559189196062"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/login"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/accounts/login/?hl=en"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/login"
+                    target="_blank"
+                    rel="noreferrer"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="footer-bottom-bar">
+            <p>&copy; 2024 QuID . All rights reserved</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
